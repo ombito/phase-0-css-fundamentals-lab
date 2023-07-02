@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+nav a{
+  align-items: center;
+  margin: 20px;
+  background-color: yellow;
+}
+nav {
+  text-align: center;
+}
+#featured-property {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+}
+#featured-property figcaption {
+  text-align: center;
+}
+#featured-property p {
+  margin: 0;
+}
+#details {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#details > div > p {
+  text-align: center;
+  margin: 0 20px;
+  flex: 1
+
+}
