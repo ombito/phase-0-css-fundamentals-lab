@@ -26,17 +26,19 @@ nav {
   text-align: center;
 }
 #featured-property p {
-  margin: 0;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 800px;
+  text-align: center;
 }
 #details {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: inline;
+
 }
-#details > div > p {
+#details div {
+  width: 25%;
+  float: left;
   text-align: center;
-  margin: 0 20px;
-  flex: 1
+  background-color: red;
 
 }
